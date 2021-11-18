@@ -3,6 +3,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 *, html {
   margin: 0;
   padding: 0;
@@ -41,13 +49,16 @@ nav.navbar {
 }
 .navbar-container .nav-links {
   background: red;
-  list-style: none;
   display: flex;
   margin: 0;
 }
 .navbar-container .nav-links li {
   color: #FFFFFF;
   margin: 0 15px;
+}
+.navbar-container .nav-links li span {
+  margin-right: 8px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */
