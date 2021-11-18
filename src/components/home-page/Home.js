@@ -1,10 +1,15 @@
 import React from 'react'
+import BackgroundHomeDesktop from '../../images/home/background-home-desktop.jpg'
 
 const Home = () => {
     return (
-        <h1>
-            hey this is home
-        </h1>
+        <div className="home" id="home" style={{
+            background: `url(${BackgroundHomeDesktop})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover'
+        }}>
+
+        </div>
     )
 }
 
