@@ -21,6 +21,21 @@ nav.navbar {
   right: 0;
   height: 80px;
   background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-container .nav-links {
+  display: flex;
+}
+.navbar-container .nav-links li {
+  margin: 0 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
