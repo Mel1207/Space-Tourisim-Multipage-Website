@@ -1,8 +1,9 @@
-import './css/main.css';
+import Home from './components/home-page/Home';
+import './sass/main.css';
 
 function App() {
   return (
-    <h1>this is my app</h1>
+    <Home />
   );
 }
 
