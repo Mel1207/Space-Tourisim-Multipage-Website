@@ -35,13 +35,25 @@ nav.navbar {
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+nav.navbar::before {
+  position: absolute;
+  content: "";
+  width: 50vw;
+  height: 80px;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+}
 
 .navbar-container {
+  position: relative;
   width: 80%;
   max-width: 1400px;
   display: flex;
@@ -52,14 +64,14 @@ nav.navbar {
   margin: 0;
 }
 .navbar-container .nav-links {
-  background: red;
   display: flex;
   margin: 0;
 }
 .navbar-container .nav-links li {
   color: #FFFFFF;
-  margin: 0 15px;
+  margin-left: 2.5rem;
   font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.2rem;
 }
 .navbar-container .nav-links li span {
   margin-right: 8px;

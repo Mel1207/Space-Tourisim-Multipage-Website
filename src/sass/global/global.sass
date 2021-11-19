@@ -17,12 +17,25 @@ nav.navbar
     top: 0
     left: 0
     right: 0
-    height: 80px
+    height: 150px
     display: flex
     align-items: center
     justify-content: center
 
+    &::before
+        position: absolute
+        content: ""
+        width: 50vw
+        height: 80px
+        top: 50%
+        right: 0
+        transform: translateY(-50%)
+        background: rgba($cWhite, .05)
+        backdrop-filter: blur(15px)
+
+
 .navbar-container
+    position: relative
     width: 80%
     max-width: 1400px
     display: flex
@@ -33,15 +46,16 @@ nav.navbar
         margin: 0
 
     .nav-links
-        background: red
         display: flex
         margin: 0
 
         li 
             color: $cWhite
-            margin: 0 15px 
+            margin-left: 2.5rem
             font-family: $barlowCondensed
+            font-size: 1.2rem
 
             span 
                 margin-right: 8px
                 font-weight: 700
+       
