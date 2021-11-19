@@ -61,7 +61,7 @@ nav.navbar::before {
   align-items: center;
 }
 .navbar-container .nav-logo {
-  margin: 0;
+  margin-left: -55px;
 }
 .navbar-container .nav-links {
   display: flex;

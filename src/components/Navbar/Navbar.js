@@ -1,11 +1,12 @@
 import React from 'react'
+import navLogo from '../../images/home/logo.svg'
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="nav-logo">
-                    <h1>LOGO</h1>
+                    <img src={navLogo} alt="navlogo" />
                 </div>
                 <ul className="nav-links">
                     <li><span>00</span>HOME</li>
