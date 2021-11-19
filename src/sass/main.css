@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -43,6 +45,7 @@ nav.navbar {
   width: 90%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .navbar-container .nav-logo {
   margin: 0;
@@ -55,6 +58,7 @@ nav.navbar {
 .navbar-container .nav-links li {
   color: #FFFFFF;
   margin: 0 15px;
+  font-family: "Barlow Condensed", sans-serif;
 }
 .navbar-container .nav-links li span {
   margin-right: 8px;
