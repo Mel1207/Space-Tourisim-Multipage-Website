@@ -78,4 +78,11 @@ nav.navbar::before {
   font-weight: 700;
 }
 
+.container {
+  position: relative;
+  width: 80%;
+  max-width: 1400px;
+  margin: auto;
+}
+
 /*# sourceMappingURL=main.css.map */

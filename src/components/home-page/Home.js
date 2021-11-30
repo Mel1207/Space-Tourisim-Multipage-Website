@@ -9,7 +9,12 @@ const Home = () => {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover'
         }}>
-
+            <div className="container">
+                <h1>
+                    hey there 
+                </h1>
+            </div>
+           
         </div>
     )
 }
