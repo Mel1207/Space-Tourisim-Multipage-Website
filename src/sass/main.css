@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -83,6 +84,23 @@ nav.navbar::before {
   width: 80%;
   max-width: 1400px;
   margin: auto;
+}
+
+.home-body {
+  display: flex;
+  align-items: end;
+  height: 100vh;
+  justify-content: space-between;
+}
+.home-body h3 {
+  color: #FFFFFF;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+.home-body h1 {
+  color: #FFFFFF;
+  font-size: 120px;
 }
 
 /*# sourceMappingURL=main.css.map */
