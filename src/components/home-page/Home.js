@@ -18,7 +18,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div>
-                    <h1>container 2</h1>
+                    <a href="#!" className="main-btn"><span>EXPLORE</span></a>
                 </div>
             </div>
            
