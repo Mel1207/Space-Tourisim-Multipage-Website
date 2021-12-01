@@ -1,5 +1,6 @@
 import React from 'react'
 import navLogo from '../../images/home/logo.svg'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -10,7 +11,7 @@ const Navbar = () => {
                 </div>
                 <ul className="nav-links">
                     <li><span>00</span>HOME</li>
-                    <li><span>01</span>DESTINATION</li>
+                    <li><span>01</span> <NavLink to="/destination">DESTINATION</NavLink></li>
                     <li><span>02</span>CREW</li>
                     <li><span>03</span>TECHNOLOGY</li>
                 </ul>
