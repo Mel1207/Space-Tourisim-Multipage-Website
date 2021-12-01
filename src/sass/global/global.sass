@@ -77,18 +77,21 @@ nav.navbar
         font-family: $barlowCondensed
         font-size: 30px
         font-weight: 300
+        margin-bottom: .8rem
 
     h1 
         color: $cWhite
         font-size: 150px
         font-family: $bellefair
         font-weight: 200
+        margin-bottom: 1rem
 
     p 
         color: $cWhite
         font-family: $barlow
         font-size: 18px
         font-weight: 200
+        line-height: 30px
 
     .main-btn 
         display: block
@@ -107,3 +110,7 @@ nav.navbar
             top: 50%
             left: 50%
             transform: translate(-50%, -50%)
+
+        &:hover
+            transition: 0.5s ease
+            outline: 3rem solid rgba($cWhite, 0.1)
