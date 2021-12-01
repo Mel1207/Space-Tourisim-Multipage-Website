@@ -100,7 +100,9 @@ nav.navbar::before {
 }
 .home-body h1 {
   color: #FFFFFF;
-  font-size: 120px;
+  font-size: 150px;
+  font-family: "Bellefair", serif;
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=main.css.map */
