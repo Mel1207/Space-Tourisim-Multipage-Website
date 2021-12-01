@@ -104,5 +104,11 @@ nav.navbar::before {
   font-family: "Bellefair", serif;
   font-weight: 200;
 }
+.home-body p {
+  color: #FFFFFF;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
 
 /*# sourceMappingURL=main.css.map */
