@@ -56,7 +56,7 @@ nav.navbar::before {
 .navbar-container {
   position: relative;
   width: 80%;
-  max-width: 1400px;
+  max-width: 1300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,7 +82,7 @@ nav.navbar::before {
 .container {
   position: relative;
   width: 80%;
-  max-width: 1400px;
+  max-width: 1300px;
   margin: auto;
 }
 
@@ -91,6 +91,7 @@ nav.navbar::before {
   align-items: end;
   height: 100vh;
   justify-content: space-between;
+  padding-bottom: 10rem;
 }
 .home-body h3 {
   color: #FFFFFF;
