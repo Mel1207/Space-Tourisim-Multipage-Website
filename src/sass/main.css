@@ -26,7 +26,7 @@ body {
   overflow-x: hidden;
 }
 
-.home, .destination {
+.home, .destination, .crew {
   height: 100vh;
   width: 100%;
 }
