@@ -139,4 +139,17 @@ nav.navbar::before {
   outline: 3rem solid rgba(255, 255, 255, 0.1);
 }
 
+.active-tab {
+  color: #FFFFFF;
+}
+
+.content {
+  display: none;
+}
+
+.active-content {
+  display: block;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=main.css.map */
