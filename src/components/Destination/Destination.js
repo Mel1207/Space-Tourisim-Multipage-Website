@@ -28,15 +28,19 @@ const Destination = () => {
                 <div className="content-tabs">
                     <div className={toggleState === 1 ? 'content active-content':'content'}>
                         <h1>Moon</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, atque.</p>
                     </div>
                     <div className={toggleState === 2 ? 'content active-content':'content'}>
                         <h1>Mars</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae libero exercitationem ut ducimus, et numquam rem veritatis assumenda porro nesciunt.</p>
                     </div>
                     <div className={toggleState === 3 ? 'content active-content':'content'}>
                         <h1>EUROPA</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto nostrum cumque laudantium excepturi magnam nam velit dolore porro laborum! Facilis ad molestiae quo neque maiores quam magnam mollitia! Laudantium?</p>
                     </div>
                     <div className={toggleState === 4 ? 'content active-content':'content'}>
                         <h1>TITAN</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aut vero dolorem tenetur voluptas necessitatibus! Beatae adipisci, eaque laboriosam aut suscipit reiciendis rerum impedit obcaecati repellendus, ea provident, est ad laudantium voluptatibus quas. Autem delectus assumenda animi minima sed quae?</p>
                     </div>
                 </div>
             </div>
