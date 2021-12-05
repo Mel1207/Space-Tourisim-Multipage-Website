@@ -8,6 +8,9 @@ const Destination = () => {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover'
         }}>
+            <div className="container">
+                <h1>content</h1>
+            </div>
         </div>
     )
 }
