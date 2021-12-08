@@ -161,6 +161,11 @@ nav.navbar::before {
   font-family: "Bellefair", serif;
   font-weight: 200;
 }
+.content p {
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  line-height: 1.8rem;
+}
 
 .active-content {
   display: block;
