@@ -156,6 +156,11 @@ nav.navbar::before {
 .content {
   display: none;
 }
+.content .content-title {
+  font-size: 100px;
+  font-family: "Bellefair", serif;
+  font-weight: 200;
+}
 
 .active-content {
   display: block;
