@@ -152,4 +152,8 @@ nav.navbar::before {
   color: #FFFFFF;
 }
 
+.destination .container {
+  height: 100vh;
+}
+
 /*# sourceMappingURL=main.css.map */
