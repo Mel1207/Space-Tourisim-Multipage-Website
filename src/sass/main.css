@@ -141,6 +141,12 @@ nav.navbar::before {
 
 .active-tab {
   color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.tabs {
+  cursor: pointer;
+  color: #FFFFFF;
 }
 
 .content {
