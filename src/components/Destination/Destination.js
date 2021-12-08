@@ -2,6 +2,9 @@ import React from 'react'
 import { useState } from 'react'
 import BackgroundDestinationDesktop from '../../images/home/background-destination-desktop.jpg'
 import imageMoon from '../../images/destination/image-moon.png'
+import imageMars from '../../images/destination/image-mars.png'
+import imageEuropa from '../../images/destination/image-europa.png'
+import imageTitan from '../../images/destination/image-titan.png'
 
 const Destination = () => {
 
@@ -20,6 +23,15 @@ const Destination = () => {
             <div className="container destination-body">
                 <div className={toggleState === 1 ? 'content active-content':'content'}>
                     <img src={imageMoon} alt="Moon" />
+                </div>
+                <div className={toggleState === 2 ? 'content active-content':'content'}>
+                    <img src={imageMars} alt="Mars" />
+                </div>
+                <div className={toggleState === 3 ? 'content active-content':'content'}>
+                    <img src={imageEuropa} alt="Europa" />
+                </div>
+                <div className={toggleState === 4 ? 'content active-content':'content'}>
+                    <img src={imageTitan} alt="Titan" />
                 </div>
                 <div>
                     <div className="block-tabs">
