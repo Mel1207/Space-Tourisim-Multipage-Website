@@ -167,7 +167,10 @@ nav.navbar::before {
   color: #FFFFFF;
 }
 
-.destination .container {
+.destination .destination-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 100vh;
 }
 
