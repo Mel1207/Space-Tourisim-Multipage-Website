@@ -144,7 +144,11 @@ nav.navbar::before {
   border-bottom: 2px solid #FFFFFF;
 }
 
-.tabs {
+.block-tabs {
+  display: flex;
+}
+.block-tabs .tabs {
+  margin: 0 15px 30px 0;
   cursor: pointer;
   color: #FFFFFF;
 }
