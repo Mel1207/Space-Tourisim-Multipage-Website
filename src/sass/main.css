@@ -202,4 +202,17 @@ nav.navbar::before {
   height: 100vh;
 }
 
+.crew-body .carousel-dots .active-dot {
+  color: #FFFFFF !important;
+}
+.crew-body .carousel-dots .dot {
+  color: red;
+}
+.crew-body .carousel-contents .carousel-content {
+  display: none;
+}
+.crew-body .carousel-contents .carousel-content-active {
+  display: block;
+}
+
 /*# sourceMappingURL=main.css.map */
