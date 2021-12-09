@@ -44,6 +44,16 @@ const Destination = () => {
                         <div className={toggleState === 1 ? 'content active-content':'content'}>
                             <h1 className="content-title">MOON</h1>
                             <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                            <div className="planet-data">
+                                <div>
+                                    <p>AVG. DISTANCE</p>
+                                    <h4>384,400KM</h4>
+                                </div>
+                                <div>
+                                    <p>EST. TRAVEL TIME</p>
+                                    <h4>3 DAYS</h4>
+                                </div>
+                            </div>
                         </div>
                         <div className={toggleState === 2 ? 'content active-content':'content'}>
                             <h1 className="content-title">MARS</h1>

@@ -68,7 +68,8 @@ nav.navbar
 
 .home-body 
     display: flex
-    align-items: end
+    // eslint-disable-next-line
+    align-items: flex-end
     height: 100vh
     justify-content: space-between
     padding-bottom: 10rem
@@ -141,6 +142,24 @@ nav.navbar
         font-size: 18px
         font-family: $barlow
         line-height: 1.8rem
+
+    .planet-data
+        display: flex
+        border-top: 1px solid rgba($cWhite, .2)
+        padding: 20px 0 0 0
+
+        div 
+            p 
+                font-size: 14px 
+                margin-bottom: 5px
+            
+            h4 
+                font-size: 28px
+                font-weight: 200
+                font-family: $bellefair
+
+        div:nth-child(1)
+            margin-right: 50px
 
 .active-content
     display: block

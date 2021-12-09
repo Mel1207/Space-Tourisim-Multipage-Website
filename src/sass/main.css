@@ -90,7 +90,7 @@ nav.navbar::before {
 
 .home-body {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   height: 100vh;
   justify-content: space-between;
   padding-bottom: 10rem;
@@ -165,6 +165,23 @@ nav.navbar::before {
   font-size: 18px;
   font-family: "Barlow", sans-serif;
   line-height: 1.8rem;
+}
+.content .planet-data {
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px 0 0 0;
+}
+.content .planet-data div p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.content .planet-data div h4 {
+  font-size: 28px;
+  font-weight: 200;
+  font-family: "Bellefair", serif;
+}
+.content .planet-data div:nth-child(1) {
+  margin-right: 50px;
 }
 
 .active-content {
