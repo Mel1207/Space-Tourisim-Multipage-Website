@@ -35,10 +35,10 @@ const Destination = () => {
                 </div>
                 <div>
                     <div className="block-tabs">
-                        <div className={toggleState === 1 ? 'tabs active-tab':'tabs'} onClick={() => toggleTab(1)}>MOON</div>
-                        <div className={toggleState === 2 ? 'tabs active-tab':'tabs'} onClick={() => toggleTab(2)}>MARS</div>
-                        <div className={toggleState === 3 ? 'tabs active-tab':'tabs'} onClick={() => toggleTab(3)}>EUROPA</div>
-                        <div className={toggleState === 4 ? 'tabs active-tab':'tabs'} onClick={() => toggleTab(4)}>TITAN</div>
+                        <div className={toggleState === 1 ? 'tabs active-tab':'tabs'} onClick={() => toggleTab(1)}><p>MOON</p></div>
+                        <div className={toggleState === 2 ? 'tabs active-tab':'tabs'} onClick={() => toggleTab(2)}><p>MARS</p></div>
+                        <div className={toggleState === 3 ? 'tabs active-tab':'tabs'} onClick={() => toggleTab(3)}><p>EUROPA</p></div>
+                        <div className={toggleState === 4 ? 'tabs active-tab':'tabs'} onClick={() => toggleTab(4)}><p>TITAN</p></div>
                     </div>         
                     <div className="content-tabs">
                         <div className={toggleState === 1 ? 'content active-content':'content'}>
