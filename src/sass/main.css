@@ -169,6 +169,7 @@ nav.navbar::before {
   font-family: "Barlow", sans-serif;
   line-height: 1.8rem;
   font-weight: 100;
+  margin-bottom: 3rem;
 }
 .content .planet-data {
   display: flex;
