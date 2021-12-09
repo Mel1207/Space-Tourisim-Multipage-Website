@@ -209,6 +209,7 @@ nav.navbar::before {
 }
 .crew-body .carousel-dots .dot {
   color: red;
+  cursor: pointer;
 }
 .crew-body .carousel-contents .carousel-content {
   display: none;
