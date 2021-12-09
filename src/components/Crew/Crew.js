@@ -8,7 +8,9 @@ const Crew = () => {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover'
         }}>
-            <h1>this is destination</h1>
+            <div className="container crew-body">
+                
+            </div>
         </div>
     )
 }
