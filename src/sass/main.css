@@ -204,6 +204,8 @@ nav.navbar::before {
 
 .crew-body .carousel-dots .active-dot {
   color: #FFFFFF !important;
+  font-weight: 500;
+  font-size: 20px;
 }
 .crew-body .carousel-dots .dot {
   color: red;
