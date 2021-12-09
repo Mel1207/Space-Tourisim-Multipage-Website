@@ -165,6 +165,7 @@ nav.navbar::before {
   font-size: 18px;
   font-family: "Barlow", sans-serif;
   line-height: 1.8rem;
+  font-weight: 100;
 }
 .content .planet-data {
   display: flex;
@@ -174,6 +175,7 @@ nav.navbar::before {
 .content .planet-data div p {
   font-size: 14px;
   margin-bottom: 5px;
+  font-weight: 100;
 }
 .content .planet-data div h4 {
   font-size: 28px;

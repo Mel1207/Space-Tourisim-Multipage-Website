@@ -58,14 +58,44 @@ const Destination = () => {
                         <div className={toggleState === 2 ? 'content active-content':'content'}>
                             <h1 className="content-title">MARS</h1>
                             <p>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!</p>
+                            <div className="planet-data">
+                                <div>
+                                    <p>AVG. DISTANCE</p>
+                                    <h4>225 MIL KM</h4>
+                                </div>
+                                <div>
+                                    <p>EST. TRAVEL TIME</p>
+                                    <h4>9 MONTHS</h4>
+                                </div>
+                            </div>
                         </div>
                         <div className={toggleState === 3 ? 'content active-content':'content'}>
                             <h1 className="content-title">EUROPA</h1>
                             <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+                            <div className="planet-data">
+                                <div>
+                                    <p>AVG. DISTANCE</p>
+                                    <h4>628 MIL KM</h4>
+                                </div>
+                                <div>
+                                    <p>EST. TRAVEL TIME</p>
+                                    <h4>3 YEARS</h4>
+                                </div>
+                            </div>
                         </div>
                         <div className={toggleState === 4 ? 'content active-content':'content'}>
                             <h1 className="content-title">TITAN</h1>
                             <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+                            <div className="planet-data">
+                                <div>
+                                    <p>AVG. DISTANCE</p>
+                                    <h4>1.6 BIL KM</h4>
+                                </div>
+                                <div>
+                                    <p>EST. TRAVEL TIME</p>
+                                    <h4>7 DAYS</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
