@@ -8,6 +8,10 @@ const Technology = () => {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover'
         }}>
+            <div className="container technology-body">
+                <div></div>
+            </div>
+
         </div>
     )
 }
