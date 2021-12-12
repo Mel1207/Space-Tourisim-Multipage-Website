@@ -235,5 +235,11 @@ nav.navbar::before {
 .technology-body .content-circle-tabs .active-circle-content {
   display: block;
 }
+.technology-body .circle-content-container .circle-content {
+  display: none;
+}
+.technology-body .circle-content-container .active-circle-content {
+  display: block;
+}
 
 /*# sourceMappingURL=main.css.map */
