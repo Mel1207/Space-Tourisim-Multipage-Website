@@ -223,4 +223,17 @@ nav.navbar::before {
   display: block;
 }
 
+.technology-body .circle {
+  color: red;
+}
+.technology-body .active-circle {
+  color: #FFFFFF !important;
+}
+.technology-body .content-circle-tabs .circle-content {
+  display: none;
+}
+.technology-body .content-circle-tabs .active-circle-content {
+  display: block;
+}
+
 /*# sourceMappingURL=main.css.map */
