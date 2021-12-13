@@ -213,6 +213,8 @@ nav.navbar
         position: relative
         border-radius: 100%
         border: 1px solid rgba($cWhite, .3)
+        cursor: pointer
+        transition: all 0.3s ease
 
         p 
             color: $cWhite
@@ -222,7 +224,18 @@ nav.navbar
             top: 50%
             left: 50%
             transform: translate(-50%, -50%)
+
+        &:hover
+            background: $cWhite
+
+            p 
+                color: $cBlack
             
+    .active-circle
+        background: $cWhite
+
+        p 
+            color: $cBlack
            
 
 

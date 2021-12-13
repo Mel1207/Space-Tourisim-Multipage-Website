@@ -230,6 +230,8 @@ nav.navbar::before {
   position: relative;
   border-radius: 100%;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .technology-body .circle p {
   color: #FFFFFF;
@@ -239,6 +241,18 @@ nav.navbar::before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.technology-body .circle:hover {
+  background: #FFFFFF;
+}
+.technology-body .circle:hover p {
+  color: #0B0D17;
+}
+.technology-body .active-circle {
+  background: #FFFFFF;
+}
+.technology-body .active-circle p {
+  color: #0B0D17;
 }
 .technology-body .active-circle {
   color: #FFFFFF !important;
