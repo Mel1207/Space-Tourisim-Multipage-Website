@@ -223,6 +223,12 @@ nav.navbar::before {
   display: block;
 }
 
+.technology-body {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  height: 100vh;
+}
 .technology-body .circle {
   height: 3rem;
   width: 3rem;
@@ -232,6 +238,7 @@ nav.navbar::before {
   border: 1px solid rgba(255, 255, 255, 0.3);
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-bottom: 20px;
 }
 .technology-body .circle p {
   color: #FFFFFF;

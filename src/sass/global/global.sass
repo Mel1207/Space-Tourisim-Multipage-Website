@@ -206,6 +206,11 @@ nav.navbar
 
 
 .technology-body 
+    display: grid
+    grid-template-columns: 3fr 1fr
+    align-items: center
+    height: 100vh
+
     .circle
         height: 3rem
         width: 3rem
@@ -215,6 +220,7 @@ nav.navbar
         border: 1px solid rgba($cWhite, .3)
         cursor: pointer
         transition: all 0.3s ease
+        margin-bottom: 20px
 
         p 
             color: $cWhite
