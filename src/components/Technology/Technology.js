@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import BackgroundTechnologyDesktop from '../../images/home/background-technology-desktop.jpg'
+import techImg1 from '../../images/technology/image-launch-vehicle-portrait.jpg'
+import techImg2 from '../../images/technology/image-spaceport-portrait.jpg'
+import techImg3 from '../../images/technology/image-space-capsule-portrait.jpg'
+
 
 const Technology = () => {
 
@@ -38,9 +42,9 @@ const Technology = () => {
 
                 </div>
                 <div className="content-circle-tabs">
-                    <div className={toggleState === 1 ? 'circle-content active-circle-content' :  'circle-content'}><h1>image 1</h1></div>
-                    <div className={toggleState === 2 ? 'circle-content active-circle-content' :  'circle-content'}><h1>image 2</h1></div>
-                    <div className={toggleState === 3 ? 'circle-content active-circle-content' :  'circle-content'}><h1>image 3</h1></div>
+                    <div className={toggleState === 1 ? 'circle-content active-circle-content' :  'circle-content'}><img src={techImg1} alt='Vehicle' /></div>
+                    <div className={toggleState === 2 ? 'circle-content active-circle-content' :  'circle-content'}><img src={techImg2} alt='Spaceport' /> </div>
+                    <div className={toggleState === 3 ? 'circle-content active-circle-content' :  'circle-content'}><img src={techImg3} alt='Capsule' /> </div>
                 </div>
             </div>
 
