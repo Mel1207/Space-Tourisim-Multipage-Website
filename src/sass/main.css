@@ -224,7 +224,21 @@ nav.navbar::before {
 }
 
 .technology-body .circle {
-  color: red;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0);
+  position: relative;
+  border-radius: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.technology-body .circle p {
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-family: "Bellefair", serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .technology-body .active-circle {
   color: #FFFFFF !important;
