@@ -229,6 +229,9 @@ nav.navbar::before {
   align-items: center;
   height: 100vh;
 }
+.technology-body .technology-details {
+  display: flex;
+}
 .technology-body .circle {
   height: 3rem;
   width: 3rem;

@@ -20,11 +20,12 @@ const Technology = () => {
             backgroundSize: 'cover'
         }}>
             <div className="container technology-body">
-                <div>
-                    <div className={toggleState === 1 ? 'circle active-circle' : 'circle'} onClick={() => toggleTab(1)}><p>1</p></div>
-                    <div className={toggleState === 2 ? 'circle active-circle' : 'circle'} onClick={() => toggleTab(2)}><p>2</p></div>
-                    <div className={toggleState === 3 ? 'circle active-circle' : 'circle'} onClick={() => toggleTab(3)}><p>3</p></div>
-
+                <div className="technology-details">
+                    <div>
+                        <div className={toggleState === 1 ? 'circle active-circle' : 'circle'} onClick={() => toggleTab(1)}><p>1</p></div>
+                        <div className={toggleState === 2 ? 'circle active-circle' : 'circle'} onClick={() => toggleTab(2)}><p>2</p></div>
+                        <div className={toggleState === 3 ? 'circle active-circle' : 'circle'} onClick={() => toggleTab(3)}><p>3</p></div>
+                    </div>
                     <div className='circle-content-container'>
                         <div className={toggleState === 1 ? 'circle-content active-circle-content' : 'circle-content'} >
                             <h1>title 1</h1>
@@ -39,7 +40,6 @@ const Technology = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, recusandae.</p>
                         </div>
                     </div>
-
                 </div>
                 <div className="content-circle-tabs">
                     <div className={toggleState === 1 ? 'circle-content active-circle-content' :  'circle-content'}><img src={techImg1} alt='Vehicle' /></div>
@@ -47,7 +47,6 @@ const Technology = () => {
                     <div className={toggleState === 3 ? 'circle-content active-circle-content' :  'circle-content'}><img src={techImg3} alt='Capsule' /> </div>
                 </div>
             </div>
-
         </div>
     )
 }
