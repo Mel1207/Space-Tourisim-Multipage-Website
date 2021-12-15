@@ -214,42 +214,39 @@ nav.navbar
     .technology-details
         display: flex
 
-    .circle
-        height: 3rem
-        width: 3rem
-        background: rgba($cWhite, 0)
-        position: relative
-        border-radius: 100%
-        border: 1px solid rgba($cWhite, .3)
-        cursor: pointer
-        transition: all 0.3s ease
-        margin-bottom: 20px
+        .circle-tabs
+            margin-right: 2.5rem
 
-        p 
-            color: $cWhite
-            font-size: 2rem
-            font-family: $bellefair
-            position: absolute
-            top: 50%
-            left: 50%
-            transform: translate(-50%, -50%)
+            .circle
+                height: 3rem
+                width: 3rem
+                background: rgba($cWhite, 0)
+                position: relative
+                border-radius: 100%
+                border: 1px solid rgba($cWhite, .3)
+                cursor: pointer
+                transition: all 0.3s ease
+                margin-bottom: 20px
 
-        &:hover
-            background: $cWhite
+                p 
+                    color: $cWhite
+                    font-size: 2rem
+                    font-family: $bellefair
+                    position: absolute
+                    top: 50%
+                    left: 50%
+                    transform: translate(-50%, -50%)
 
-            p 
-                color: $cBlack
-            
-    .active-circle
-        background: $cWhite
+                &:hover
+                    background: $cWhite
 
-        p 
-            color: $cBlack
-           
-
-
-    .active-circle
-        color: $cWhite !important
+                    p 
+                        color: $cBlack
+                    
+            .active-circle
+                background: $cWhite
+                p 
+                    color: $cBlack
 
     .content-circle-tabs
         .circle-content

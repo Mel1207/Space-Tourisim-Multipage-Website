@@ -21,7 +21,7 @@ const Technology = () => {
         }}>
             <div className="container technology-body">
                 <div className="technology-details">
-                    <div>
+                    <div className="circle-tabs ">
                         <div className={toggleState === 1 ? 'circle active-circle' : 'circle'} onClick={() => toggleTab(1)}><p>1</p></div>
                         <div className={toggleState === 2 ? 'circle active-circle' : 'circle'} onClick={() => toggleTab(2)}><p>2</p></div>
                         <div className={toggleState === 3 ? 'circle active-circle' : 'circle'} onClick={() => toggleTab(3)}><p>3</p></div>

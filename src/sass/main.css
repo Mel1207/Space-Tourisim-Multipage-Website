@@ -232,7 +232,10 @@ nav.navbar::before {
 .technology-body .technology-details {
   display: flex;
 }
-.technology-body .circle {
+.technology-body .technology-details .circle-tabs {
+  margin-right: 2.5rem;
+}
+.technology-body .technology-details .circle-tabs .circle {
   height: 3rem;
   width: 3rem;
   background: rgba(255, 255, 255, 0);
@@ -243,7 +246,7 @@ nav.navbar::before {
   transition: all 0.3s ease;
   margin-bottom: 20px;
 }
-.technology-body .circle p {
+.technology-body .technology-details .circle-tabs .circle p {
   color: #FFFFFF;
   font-size: 2rem;
   font-family: "Bellefair", serif;
@@ -252,20 +255,17 @@ nav.navbar::before {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.technology-body .circle:hover {
+.technology-body .technology-details .circle-tabs .circle:hover {
   background: #FFFFFF;
 }
-.technology-body .circle:hover p {
+.technology-body .technology-details .circle-tabs .circle:hover p {
   color: #0B0D17;
 }
-.technology-body .active-circle {
+.technology-body .technology-details .circle-tabs .active-circle {
   background: #FFFFFF;
 }
-.technology-body .active-circle p {
+.technology-body .technology-details .circle-tabs .active-circle p {
   color: #0B0D17;
-}
-.technology-body .active-circle {
-  color: #FFFFFF !important;
 }
 .technology-body .content-circle-tabs .circle-content {
   display: none;
