@@ -276,6 +276,27 @@ nav.navbar::before {
 .technology-body .circle-content-container .circle-content {
   display: none;
 }
+.technology-body .circle-content-container .circle-content span {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #FFFFFF;
+  font-size: 1rem;
+  letter-spacing: 2.7px;
+  font-weight: 200;
+}
+.technology-body .circle-content-container .circle-content h3 {
+  font-size: 3.2rem;
+  color: #FFFFFF;
+  font-weight: 200;
+  font-family: "Bellefair", serif;
+  margin-bottom: 1.2rem;
+}
+.technology-body .circle-content-container .circle-content p {
+  color: #FFFFFF;
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+}
 .technology-body .circle-content-container .active-circle-content {
   display: block;
 }

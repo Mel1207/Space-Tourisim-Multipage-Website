@@ -28,16 +28,19 @@ const Technology = () => {
                     </div>
                     <div className='circle-content-container'>
                         <div className={toggleState === 1 ? 'circle-content active-circle-content' : 'circle-content'} >
-                            <h1>title 1</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, recusandae.</p>
+                            <span>THE TERMINOLOGY...</span>
+                            <h3>SPACE CAPSULE</h3>
+                            <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
                         </div>
                         <div className={toggleState === 2 ? 'circle-content active-circle-content' : 'circle-content'} >
-                            <h1>title 2</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, recusandae.</p>
+                            <span>THE TERMINOLOGY...</span>
+                            <h3>SPACEPORTS</h3>
+                            <p>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
                         </div>
                         <div className={toggleState === 3 ? 'circle-content active-circle-content' : 'circle-content'} >
-                            <h1>title 3</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, recusandae.</p>
+                            <span>THE TERMINOLOGY...</span>
+                            <h3>SPACE CAPSULE</h3>
+                            <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
                         </div>
                     </div>
                 </div>
