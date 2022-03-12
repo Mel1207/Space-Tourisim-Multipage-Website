@@ -181,20 +181,26 @@ nav.navbar
 
 
 .crew-body 
-
     display: grid 
     height: 100vh
     align-items: center
 
     .carousel-dots
+        display: flex
         .active-dot
-            color: $cWhite !important
-            font-weight: 500
-            font-size: 20px
+            background: #fff !important
 
         .dot
-            color: red
+            height: 15px
+            width: 15px
+            margin-right: 24px
+            background: #979797
+            border-radius: 100%
             cursor: pointer
+            transition: 0.3s
+
+            &:hover
+                background: #fff
 
     .carousel-contents
         .carousel-content
