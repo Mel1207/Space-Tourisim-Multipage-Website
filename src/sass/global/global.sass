@@ -207,8 +207,33 @@ nav.navbar
             display: none
 
         .carousel-content-active 
-            display: block
+            display: grid 
+            grid-template-columns: 1fr 1fr
+            grid-gap: 5rem
 
+            span 
+                color: #fff
+                font-size: 28px 
+                font-weight: 700
+                margin-right: 15px
+                align-items: center 
+                opacity: .25 
+
+            h3
+                display: flex 
+                font-size: 28px 
+                font-family: $barlowCondensed 
+                letter-spacing: 4.72px
+                font-weight: 500 
+                text-transform: uppercase
+                color: $cWhite !important
+
+            p   
+                color: $cWhite
+                font-family: $barlow
+                font-weight: 200
+                line-height: 1.7rem
+                font-size: 1.1rem    
 
 
 .technology-body 
