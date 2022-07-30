@@ -67,11 +67,12 @@ nav.navbar
     margin: auto
 // HOME
 .home-body 
-    display: flex
-    align-items: flex-end
+    display: grid
+    grid-template-columns: 1fr 1fr
+    align-items: end
     height: 100vh
     justify-content: space-between
-    padding-bottom: 10rem
+    padding-bottom: 10vh
 
     h3 
         color: $cWhite
@@ -101,6 +102,8 @@ nav.navbar
         width: 274px
         background: $cWhite
         border-radius: 50%
+        margin-left: auto
+        margin-right: 30px
 
         span
             color: $cBlack
