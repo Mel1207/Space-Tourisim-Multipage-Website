@@ -391,7 +391,7 @@ nav.navbar::before {
     padding-bottom: 0;
   }
   .home-body h3 {
-    margin-top: 12vh;
+    margin-top: 10vh;
   }
   .home-body h1, .home-body h3, .home-body p {
     text-align: center;
@@ -401,6 +401,8 @@ nav.navbar::before {
     max-width: 420px;
   }
   .home-body .main-btn {
+    height: 200px;
+    width: 200px;
     margin: 0 auto 5vh auto;
   }
 }
