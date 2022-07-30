@@ -21,7 +21,6 @@ const Home = () => {
                     <a href="#!" className="main-btn"><span>EXPLORE</span></a>
                 </div>
             </div>
-           
         </div>
     )
 }
